@@ -1,0 +1,153 @@
+body{
+    margin: auto;
+    padding: 1px;
+    text-align: center;
+    background-color: #eee;
+    color:  black;
+    justify-content: center;
+}
+
+h1{
+    background-color: darkred;
+}
+ 
+.disp-1{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.budg{
+    display: block;
+    padding: 10%;
+    border-radius: 20px 10px 12px solide black;
+}
+
+.dep{
+    display: block;
+    padding: 10%;
+}
+ 
+.sold{
+    display: block;
+    padding: 10%;
+}
+
+.tabledep{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+
+    
+}
+
+.tabledep ,tr ,th{
+    border: 3px solid white;
+    background-color: darkred;
+  
+}
+
+.tablerev{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.tablerev,tr,th{
+    border: 3px solid white;
+    background-color: rgb(226, 11, 11);
+}
+
+#myBtn{
+    margin-left: 355px;
+ }
+
+ #myBtnRev{
+    margin-left: 355px;
+ }
+
+ .tab,td{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border: 3px solid white;
+ }
+ 
+
+ .modsup{
+    display: inline-flex;
+    margin-left: 10px;
+    border: 0px;
+    justify-content: center;
+ }
+
+ .Span1{
+    display: inline-flex;
+    gap:  350px;
+ }
+
+ .span2{
+    display: inline-flex;
+     gap: 350px;
+ }
+
+ #button_valid{
+    margin: auto;
+    justify-content: center;
+ }
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box  */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+
+  /* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+    
+#btn_valid_dep{
+    display: flex;
+    margin: auto;
+}
+
+h4{
+    display: flex;
+    margin: 12px;
+}
+
+.tab{
+    border-collapse: collapse;
+}
+
+#button_valid{
+display: flex;
+}
